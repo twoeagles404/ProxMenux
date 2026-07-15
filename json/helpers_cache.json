@@ -10490,8 +10490,8 @@
     "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nexterm.webp",
     "updateable": true,
     "privileged": false,
-    "has_arm": false,
-    "is_dev": true,
+    "has_arm": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
