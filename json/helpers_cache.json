@@ -3592,6 +3592,40 @@
     "os": ""
   },
   {
+    "name": "Directus",
+    "slug": "directus",
+    "desc": "Directus is a data platform that provides instant REST and GraphQL APIs plus a visual data studio for SQL databases.",
+    "script": "ct/directus.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/directus.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/directus.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00020"
+    ],
+    "category_names": [
+      "AI / Coding & Dev-Tools"
+    ],
+    "notes": [],
+    "port": 8055,
+    "website": "https://directus.com/",
+    "documentation": "https://directus.com/docs/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/directus.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "admin@directus.local",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "DiscoPanel",
     "slug": "discopanel",
     "desc": "The Minecraft Server Manager That *Actually* Works\r\nBuilt by someone who was done with bloated panels, endless menus, and tools that break the moment you need them most.\r\nSpin up servers in minutes, configure your proxy without headaches, and link your own DNS name effortlessly.\r\nFast setup, clean controls, zero nonsense—just a manager that gets out of your way and lets you play.",
@@ -9033,6 +9067,36 @@
       "username": "admin",
       "password": "secure123!"
     },
+    "os": ""
+  },
+  {
+    "name": "Mailpit",
+    "slug": "mailpit",
+    "desc": "Mailpit is a fast, lightweight email testing tool that captures SMTP messages and provides a web UI and API for viewing and testing them.",
+    "script": "ct/mailpit.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mailpit.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/mailpit.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00020"
+    ],
+    "category_names": [
+      "AI / Coding & Dev-Tools"
+    ],
+    "notes": [],
+    "port": 8025,
+    "website": "https://mailpit.axllent.org/",
+    "documentation": "https://mailpit.axllent.org/docs/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mailpit.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
     "os": ""
   },
   {
