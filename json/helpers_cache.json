@@ -4369,16 +4369,18 @@
     "type": "lxc",
     "type_id": "nm9bra8mzye2scg",
     "categories": [
-      "scriptcat00014"
+      "scriptcat00011",
+      "scriptcat00013"
     ],
     "category_names": [
-      "*Arr Suite"
+      "Files & Downloads",
+      "Media & Streaming"
     ],
     "notes": [],
     "port": 8688,
     "website": "https://github.com/droppedneedle/droppedneedle",
     "documentation": "https://droppedneedle.com/docs",
-    "logo": "",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/droppedneedle.webp",
     "updateable": true,
     "privileged": false,
     "has_arm": true,
@@ -5134,7 +5136,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
@@ -11840,7 +11842,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
@@ -13110,7 +13112,7 @@
     "updateable": true,
     "privileged": false,
     "has_arm": false,
-    "is_dev": true,
+    "is_dev": false,
     "execute_in": [
       "lxc"
     ],
