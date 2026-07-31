@@ -1201,6 +1201,36 @@
   },
   {
     "name": "Arch Linux",
+    "slug": "archlinux",
+    "desc": "Arch Linux is a lightweight, rolling-release Linux distribution that follows a keep-it-simple philosophy. It provides a minimalist base system that users can build upon according to their needs.",
+    "script": "ct/archlinux.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/archlinux.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/archlinux.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://archlinux.org/",
+    "documentation": "https://wiki.archlinux.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/arch-linux.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "Arch Linux",
     "slug": "archlinux-vm",
     "desc": "Arch Linux is a highly customizable, independent Linux distribution that gives users complete control over their system. Known for its rolling release model, Arch Linux is always up-to-date with the latest software. It's favored by experienced users who appreciate its minimalist approach, demanding a hands-on installation and configuration process. This level of control and flexibility makes it a popular choice for those who want to tailor their Linux system to their exact needs.",
     "script": "vm/archlinux-vm.sh",
@@ -3932,6 +3962,40 @@
     "os": ""
   },
   {
+    "name": "Devuan",
+    "slug": "devuan",
+    "desc": "Devuan is a Debian-derived Linux distribution that offers init-system freedom without systemd.",
+    "script": "ct/devuan.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/devuan.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/devuan.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://www.devuan.org/",
+    "documentation": "https://www.devuan.org/os/documentation",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/devuan.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "Directus",
     "slug": "directus",
     "desc": "Directus is a data platform that provides instant REST and GraphQL APIs plus a visual data studio for SQL databases.",
@@ -5105,6 +5169,40 @@
       "lxc"
     ],
     "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "Fedora",
+    "slug": "fedora",
+    "desc": "Fedora is a cutting-edge Linux distribution sponsored by Red Hat, featuring current open-source technologies.",
+    "script": "ct/fedora.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/fedora.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/fedora.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://fedoraproject.org/",
+    "documentation": "https://docs.fedoraproject.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fedora.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
+    },
     "os": ""
   },
   {
@@ -12512,6 +12610,40 @@
     "os": ""
   },
   {
+    "name": "openEuler",
+    "slug": "openeuler",
+    "desc": "openEuler is an open-source Linux distribution designed for servers and cloud computing.",
+    "script": "ct/openeuler.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/openeuler.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/openeuler.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://www.openeuler.org/",
+    "documentation": "https://docs.openeuler.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openeuler.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "Opengist",
     "slug": "opengist",
     "desc": "Self-hosted pastebin powered by Git, open-source alternative to Github Gist.",
@@ -12632,6 +12764,40 @@
     "default_credentials": {
       "username": "admin",
       "password": "admin"
+    },
+    "os": ""
+  },
+  {
+    "name": "openSUSE",
+    "slug": "opensuse",
+    "desc": "openSUSE is a stable, easy-to-use Linux distribution with the YaST configuration tool and zypper package manager.",
+    "script": "ct/opensuse.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/opensuse.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/opensuse.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://www.opensuse.org/",
+    "documentation": "https://doc.opensuse.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/opensuse.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
     },
     "os": ""
   },
