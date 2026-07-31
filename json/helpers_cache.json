@@ -1380,6 +1380,40 @@
     "os": ""
   },
   {
+    "name": "AudioMuse-AI",
+    "slug": "audiomuse-ai",
+    "desc": "AudioMuse-AI is a self-hosted tool that uses sonic analysis to rediscover forgotten songs and generate groove-aware playlists for your music library, without external APIs. It integrates with Jellyfin, Navidrome, Emby, Lyrion or Plex and runs a Flask web UI backed by Redis Queue workers and PostgreSQL.",
+    "script": "ct/audiomuse-ai.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/audiomuse-ai.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/audiomuse-ai.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00014"
+    ],
+    "category_names": [
+      "*Arr Suite"
+    ],
+    "notes": [],
+    "port": 8000,
+    "website": "https://github.com/NeptuneHub/AudioMuse-AI",
+    "documentation": "https://github.com/NeptuneHub/AudioMuse-AI/tree/main/docs",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/audiomuse-ai.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "admin",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "Aurral",
     "slug": "aurral",
     "desc": "Aurral is a self-hosted music discovery and artist request companion for Lidarr. It provides personalized recommendations, trends, tags and recent releases, playlist flows with streaming-service imports, and playback via Navidrome or Plex, while integrating with an existing Lidarr instance rather than replacing it.",
@@ -2335,6 +2369,40 @@
       "lxc"
     ],
     "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "CentOS Stream",
+    "slug": "centos",
+    "desc": "CentOS Stream is a continuously delivered Linux distribution that tracks just ahead of RHEL development.",
+    "script": "ct/centos.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/centos.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/centos.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://www.centos.org/centos-stream/",
+    "documentation": "https://docs.centos.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/centos.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
+    },
     "os": ""
   },
   {
@@ -5837,6 +5905,40 @@
     "os": ""
   },
   {
+    "name": "Gentoo",
+    "slug": "gentoo",
+    "desc": "Gentoo is a highly customizable source-based Linux distribution.",
+    "script": "ct/gentoo.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/gentoo.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/gentoo.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00002"
+    ],
+    "category_names": [
+      "Operating Systems"
+    ],
+    "notes": [],
+    "port": 0,
+    "website": "https://www.gentoo.org/",
+    "documentation": "https://wiki.gentoo.org/",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gentoo.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "default_credentials": {
+      "username": "root",
+      "password": ""
+    },
+    "os": ""
+  },
+  {
     "name": "GeoPulse",
     "slug": "geopulse",
     "desc": "Self-hosted location tracking and visualization platform with GPS history, trip detection, and AI-powered insights, backed by PostgreSQL with PostGIS.",
@@ -6580,6 +6682,36 @@
     "os": ""
   },
   {
+    "name": "Hammer",
+    "slug": "hammer",
+    "desc": "This installs the self-hosted sync server for Hammer, the offline-first story/novel writing app. The Kotlin/Ktor server lets you sync your Hammer projects across your own devices instead of using Dropbox or a third-party service. It ships with an in-process (embedded) PostgreSQL, so no external database is required. The server has no UI of its own - install the Hammer desktop/mobile client separately and point it at this server.",
+    "script": "ct/hammer.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/hammer.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/hammer.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00012"
+    ],
+    "category_names": [
+      "Documents & Notes"
+    ],
+    "notes": [],
+    "port": 8080,
+    "website": "https://hammereditor.com",
+    "documentation": "https://github.com/Darkrock-Studios/hammer-editor/blob/develop/HOW-TO-RUN-A-SERVER.md",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hammer-editor.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
     "name": "Home Assistant OS",
     "slug": "haos-vm",
     "desc": "This script automates the process of creating a Virtual Machine (VM) using the official KVM (qcow2) disk image provided by the Home Assistant Team. It involves finding, downloading, and extracting the image, defining user-defined settings, importing and attaching the disk, setting the boot order, and starting the VM. It supports various storage types, and does not involve any hidden installations. After the script completes, click on the VM, then on the Summary tab to find the VM IP.",
@@ -7188,6 +7320,36 @@
     "is_dev": false,
     "execute_in": [
       "pve"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "Ignis",
+    "slug": "ignis",
+    "desc": "Ignis runs Obsidian in the browser by reimplementing the Electron APIs Obsidian uses, keeping your vaults on the server. It supports multiple vaults, plugins, file upload/download and sync across browser tabs, so you can access your Obsidian vault from any device without a desktop client.",
+    "script": "ct/ignis.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/ignis.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/ignis.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00012"
+    ],
+    "category_names": [
+      "Documents & Notes"
+    ],
+    "notes": [],
+    "port": 443,
+    "website": "https://github.com/Nystik-gh/ignis",
+    "documentation": "https://github.com/Nystik-gh/ignis",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/obsidian.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": true,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
     ],
     "config_path": "",
     "os": ""
@@ -15752,6 +15914,36 @@
     "is_dev": false,
     "execute_in": [
       "pve"
+    ],
+    "config_path": "",
+    "os": ""
+  },
+  {
+    "name": "Securo",
+    "slug": "securo",
+    "desc": "Securo is a self-hosted personal finance manager for tracking accounts, transactions, budgets and assets. It ships a FastAPI backend with PostgreSQL and Celery, a React frontend, optional bank synchronization (Pluggy, Enable Banking, SimpleFIN), OIDC login and optional AI agents. All data stays on your own infrastructure.",
+    "script": "ct/securo.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/securo.sh",
+    "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/securo.sh",
+    "type": "lxc",
+    "type_id": "nm9bra8mzye2scg",
+    "categories": [
+      "scriptcat00023"
+    ],
+    "category_names": [
+      "Finance & Budgeting"
+    ],
+    "notes": [],
+    "port": 443,
+    "website": "https://github.com/securo-finance/securo",
+    "documentation": "https://github.com/securo-finance/securo",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/securo.webp",
+    "updateable": true,
+    "privileged": false,
+    "has_arm": false,
+    "is_dev": true,
+    "execute_in": [
+      "lxc"
     ],
     "config_path": "",
     "os": ""
