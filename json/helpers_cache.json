@@ -4634,7 +4634,7 @@
     "port": 3000,
     "website": "https://drawdb.vercel.app",
     "documentation": "https://github.com/drawdb-io/drawdb",
-    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-helper-scripts.webp",
+    "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/drawdb.webp",
     "updateable": true,
     "privileged": false,
     "has_arm": true,
