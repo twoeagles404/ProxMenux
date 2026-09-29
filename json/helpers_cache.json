@@ -5681,7 +5681,7 @@
   {
     "name": "Firefox Syncserver",
     "slug": "firefox-syncserver",
-    "desc": "Firefox Syncserver (syncstorage-rs) is Mozilla's own Rust server behind Firefox Sync, combining the sync storage and the tokenserver in one binary. Self-hosted, it keeps your Firefox bookmarks, history, passwords, open tabs, add-ons and form data on your own infrastructure, while you still sign in with a regular Mozilla account. Firefox encrypts the data before it is uploaded, so the server only ever stores ciphertext.",
+    "desc": "Firefox Syncserver (syncstorage-rs) is Mozilla's own Rust server behind Firefox Sync, combining the sync storage and the tokenserver in one binary. Self-hosted, it keeps your Firefox bookmarks, history, passwords, open tabs, add-ons and form data on your own infrastructure, while you still sign in with a regular Mozilla account. Firefox encrypts every record before upload, so the server never sees their contents.",
     "script": "ct/firefox-syncserver.sh",
     "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/firefox-syncserver.sh",
     "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/firefox-syncserver.sh",
@@ -21370,7 +21370,7 @@
   {
     "name": "Weblate",
     "slug": "weblate",
-    "desc": "Weblate is a web-based continuous localization system with tight version control integration. Translators work in the browser while Weblate pulls from and pushes to your Git or Mercurial repositories, with quality checks, translation memory, machine translation, glossaries and add-ons for more than 70 file formats.",
+    "desc": "Weblate is a web-based continuous localization system with tight version control integration. Translators work in the browser while Weblate pulls from and pushes to your Git or Mercurial repositories, with quality checks, translation memory, machine translation, glossaries and add-ons across dozens of file formats.",
     "script": "ct/weblate.sh",
     "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/weblate.sh",
     "script_url_mirror": "https://git.community-scripts.org/community-scripts/ProxmoxVE/raw/branch/main/ct/weblate.sh",
